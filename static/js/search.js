@@ -97,4 +97,3 @@ window.addEventListener('DOMContentLoaded', function() {
 if (window.location.pathname == '/') {
   load_codepoints();
 }
-

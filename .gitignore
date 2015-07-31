@@ -3,3 +3,4 @@ content/c/*.md
 UnicodeData.txt
 public/
 static/codepoints.json
+publish

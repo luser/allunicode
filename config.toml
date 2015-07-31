@@ -4,12 +4,12 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 uglyurls = true
-#canonifyurls = true
 disableSitemap = true
+disableRSS = true
 languageCode = "en-us"
 title = "All Unicode Characters"
 MetaDataFormat = "toml"
-gnoreFiles = [ "~$", "\\.boo$" ]
+ignoreFiles = [ "~$" ]
 [author]
     name = "Ted Mielczarek"
 [permalinks]

@@ -1,0 +1,5 @@
+RewriteEngine  on
+RewriteBase /c/
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html

@@ -1,0 +1,16 @@
+theme = "zafta"
+baseurl = "http://allunicode.info"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+uglyurls = true
+#canonifyurls = true
+disableSitemap = true
+languageCode = "en-us"
+title = "All Unicode Characters"
+MetaDataFormat = "toml"
+gnoreFiles = [ "~$", "\\.boo$" ]
+[author]
+    name = "Ted Mielczarek"
+[permalinks]
+  c = "/c/:filename"

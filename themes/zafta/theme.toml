@@ -1,0 +1,6 @@
+author = "michael d henderson"
+description = "a minimal working template"
+license = "MIT"
+name = "zafta"
+source_repo = ""
+tags = ["tags", "categories"]
